@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="images/site-logo.png" type="image/icon">
+    <title>TTA|Tourist Travel Agency</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<style type="text/css">
+body{
+    background-color: white;
+    direction: ltr"
+
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+h2{
+    margin-top: 5%;
+    color: #34495E
+}
+
+</style>
+<body>
+<nav class="navbar navbar-expand-sm bg-jamia navbar-dark">
+        <a class="navbar-brand" href="#"><img src="logo.jpg" alt="Logo" style="width:30px; height: 30px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse urdufont " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href=""> My Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""> Change Password</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""> My Tour History</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href=""> Issue Tickets</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+ 
+<div style="background-color: white; text-align: left;"><h1  style="font-size: 10px; color: white"> ................................... <span style="font-size: 50px; color:#34495E  ">Tourist Travel Agency</span><h1></div>
+
+<nav class="navbar navbar-expand-sm bg-jamia navbar-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse urdufont " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/zoya/Desktop/webA1/Home.html"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/zoya/Desktop/webA1/About.html"> AboutUs</a>
+                </li>
+               
+                 <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/zoya/Desktop/webA1/Privacy_policy.html"> Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/zoya/Desktop/webA1/contact.html"> Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/zoya/Desktop/webA1/needHelp.html"> Need help?</a>
+                </li>
+                <li class="nav-item">
+                   
+                    <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: darkgrey">World Tour</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Malaysia Tour</a>
+                <a class="dropdown-item" href="#">Maldives Tour</a>
+                <a class="dropdown-item" href="#">Azarbijan Tour</a>
+                <a class="dropdown-item" href="#">Dubai Tour</a>
+                <a class="dropdown-item" href="#">Singapor Tour</a>
+                <a class="dropdown-item" href="#">Thailand Tour</a>
+                <a class="dropdown-item" href="#">Turkey Tour</a>
+                <a class="dropdown-item" href="#">Sirilank Tour</a>
+                <a class="dropdown-item" href="#">Uzbekistan Tour</a>
+            </div>
+                 </div>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+
+
+<div>
+         <img src="19.png" alt="Picture">
+        <figcaption style="margin-top: -7%;text-align: center;color: #CACFD2 "><h1><b>TTA-Tourist Travel Agency</b></h1></figcaption>
+ </div>
+
+
+<div>
+   <h2 style="color: #1C2833;padding-left: 5% ">Drop Us a Line</h2> 
+
+
+</div>
+<br style="clear:both;">
+    <div class="panel panel-primary">
+        <div class="panel-body contact-bg">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form action="" method="post" class="form-horizontal" style="padding-left: 10%">
+                        
+                        <div class="form-group">
+                            <div class="col-sm-15 col-xs-15">
+                                <label class="visible-xs">Name</label>
+                                <input type="text" class="form-control" name="contactName" placeholder="Your Name" required="required" value="">
+                            </div>
+                            <div class="col-sm-15 col-xs-12">
+                                <label class="visible-xs">Phone</label>
+                                <input type="text" name="contactPhone" class="form-control" onkeypress="return numberWdDash(this.value)" maxlength="15" placeholder="Your Phone" required value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-15 col-xs-12">
+                                <label class="visible-xs">Email</label>
+                                <input type="email" class="form-control" name="contactEmail" placeholder="Your Email" required="required" value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-15 col-xs-12">
+                                <label class="visible-xs">Purpose of Contact</label>
+                                <select name="subject" class="form-control">
+                                    <option value="" disabled="" selected="selected">Purpose of Contact</option>
+                                    <option value="Corporate">Corporate</option>
+                                    <option value="Umrah">Umrah</option>
+                                    <option value="Visa">Visa</option>
+                                    <option value="Ticket">Ticket</option>
+                                    <option value="Domestic Tour">Domestic Tour</option>
+                                    <option value="International Tour">International Tour</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                                                    </div>
+                        <div class="form-group">
+                            <div class="col-sm-15 col-xs-12">
+                                <label class="visible-xs">Message</label>
+                                <textarea name="contactMessage" cols="30" rows="5" class="form-control" placeholder="Your Message" required="required"></textarea>
+                            </div>
+                        </div>
+                        
+                        
+                            <div class="col-sm-4 col-xs-12">
+                                <button type="submit" value="Send" name="contact" class="btn btn-lg btn-primary pull-right" onclick="return validate_captcha()"><i class="fa fa-paper-plane-o"></i> Send</button>
+                                
+                            </div>
+                     
+                    </form>
+
+                  <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border border-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        
+            <div id="container" style="margin-top: 7%;padding-left: 5%;align-items: center;">
+                <div class="row">
+                   
+                               
+                                     <div class="col" style="margin-left: 37%">
+                                   <a href="www.facebook.com"> <img style="width: 10%;height: auto;" src="facebook.png"></a>
+                                </div>
+                                 <div class="col" style="margin-left: -40%" >
+                                   <a href="www.twitter.com"> <img style="width: 10%;height: auto;" src="twitter.png">
+                                </div>
+                                 <div class="col" style="margin-left: -40%">
+                                   <a href="www.youtube.com"> <img style="width: 10%;height: auto;" src="youtube.png">
+                                </div>
+                                     <div class="col" style="margin-left: -40%">
+                                   <a href="www.instagram.com"> <img style="width: 10%;height: auto;" src="insta.png">
+                                </div>
+                                 <div class="col" style="margin-left: -40%">
+                                   <a href="www.pinterest.com"> <img style="width: 10%;height: auto;" src="pi.png">
+                                </div>
+                                
+                            </div>
+<div>
+                            <p style="text-align: center;margin-top: 3%">© 2019 Tourist Travel All Rights Reserved
+                            </p>
+                        </div>
+                  
+        </div>
+
+                       
+</body>
+</html>
+
+
+
